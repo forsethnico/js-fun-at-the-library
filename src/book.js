@@ -15,7 +15,6 @@ function saveReview(review, reviews) {
   if(reviews.indexOf(review) === -1) {
     reviews.push(review);
   };
-  return reviews;
 }
 
 function calculatePageCount(bookTitle) {
